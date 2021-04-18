@@ -1,0 +1,31 @@
+{
+  "users": [{
+    "login": "Жыжа",
+    "pass": "konodioda"
+  }, {
+    "login": "Satan",
+    "pass": "123"
+  }, {
+    "login": "koko",
+    "pass": "kuku"
+  }, {
+    "login": "смэрть",
+    "pass": "mementomori"
+  }, {
+    "login": "пикачу",
+    "pass": "ule[jxenfvblhjxe"
+  }],
+  "messend": [{
+    "login": "Жыжа",
+    "text": "ДЫО!!!",
+    "time": "Monday 12th of April 2021 10:21:25 AM"
+  }, {
+    "login": "Satan",
+    "text": "Здарова, чертилы",
+    "time": "Tuesday 12th of April 2021 11:50:10 AM"
+  },{
+    "login": "пикачу",
+    "text": "https://fuwe.me/mess/pikachu.jpg",
+    "time": "Tuesday 13th of April 2021 01:50:10 AM"
+  }]
+}
