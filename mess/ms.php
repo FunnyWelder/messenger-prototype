@@ -40,11 +40,11 @@
     </style>
 </head>
 <body>
-    <?php
+    <?php //mess 2.0
     if(isset($_GET['login']) && $_GET['pass']){
         $login = $_GET['login'];
         $pass = $_GET['pass'];
-        $ourData = file_get_contents("users.json");
+        $ourData = file_get_contents('src/users.json');
         $object = json_decode($ourData);
         foreach ($object->users as $user) {
             if($user->login === $login)
@@ -58,11 +58,11 @@
                 $copy->text = $text;
                 $copy->time = date('l jS \of F Y h:i:s A');
                 array_push($object->messend, $copy);
-                file_put_contents('users.json', json_encode($object));
+                file_put_contents('src/users.json', json_encode($object));
             }
         }
     }
-    $ourData = file_get_contents('users.json');
+    $ourData = file_get_contents('src/users.json');
     $object = json_decode($ourData);
     foreach ($object->messend as $mess){
         echo '<div class="mess"><b>Пользователь:</b> ';
