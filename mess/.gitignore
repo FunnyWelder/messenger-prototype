@@ -1,3 +1,4 @@
 vendor
 compilation_cache
 src/config.php
+composer.lock
