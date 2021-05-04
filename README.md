@@ -16,7 +16,7 @@ php -S 0.0.0.0:port script
 ```
 3. Открыть страницу сервера через адресную строку используя команду:
 ```bash
-*.*.*.*:port/?login=Satan&&pass=123&&text=wqeqw
+*.*.*.*:port/?login=Satan&pass=123&text=wqeqw
 ```
 
 ### Примечания
